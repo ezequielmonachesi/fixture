@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    
+}
+body{
+    background: rgb(29,253,175);
+background: linear-gradient(90deg, rgba(29,253,175,1) 0%, rgba(58,173,180,1) 48%);
+}
+
+nav{
+    background:#990100;
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    padding: 5px 10px;
+    color: #e8e8e8;
+}
+
+#banner{
+    text-align: center;
+}
+
+.qatarBanner{
+    margin-top: 58px;
+    padding: 50px 30px 10px 30px;
+    height: 300px;
+}
+
+.card{
+    margin: 10px 5px;
+    border: 1px solid white;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fecha{
+    width: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.versus{
+    width: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grupo{
+    width: 500px;
+    color: #e8e8e8;
+    background: black;
+}
