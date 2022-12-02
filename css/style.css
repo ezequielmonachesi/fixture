@@ -11,13 +11,15 @@ background: linear-gradient(90deg, rgba(29,253,175,1) 0%, rgba(58,173,180,1) 48%
 
 nav{
     background:#990100;
-    padding: 20px 10px;
     position: fixed;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-start;
 }
 nav a{
-    padding: 5px 10px;
     color: #e8e8e8;
+    padding: 20px;
 }
 
 #banner{
@@ -29,10 +31,21 @@ nav a{
     padding: 50px 30px 10px 30px;
     height: 300px;
 }
+
+.title  {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.title h3{
+    
+    padding: 0 10px;
+}
+
 .contenedor {
     display: flex;
     justify-content: space-evenly;
-
+    flex-wrap: wrap;
 }
 .card{
     margin: 10px 5px;
@@ -92,4 +105,45 @@ nav a{
     padding-left: 1%;
     padding-right: 1%;
 }
+
+/* Media queries */
+
+@media all and (max-width: 768px){
+
+    nav {
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+    }
+    nav a{
+        padding: 10px;
+    }
+    .banner{
+        width: 100%;
+        text-align: center;
+    }
+    .qatarBanner{
+        height: 150px;
+    }
+    .title{
+
+    }
+    .card{
+        width: 70%;
+    }
+
+}
+
+@media all and (min-width: 769px) and (max-width: 991px) {
+    nav{
+      justify-content: flex-start;
+    }
+    nav a{
+      padding: 10px;
+    }
+    .card{
+        width: 40%;
+    }
+    }
 
