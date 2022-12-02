@@ -29,36 +29,67 @@ nav a{
     padding: 50px 30px 10px 30px;
     height: 300px;
 }
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
 
+}
 .card{
     margin: 10px 5px;
     border: 1px solid white;
-    width: 500px;
-    height: 100px;
+    width: 30%;
+    height: 20%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
+.grupo{
+    width: 100%;
+    color: #e8e8e8;
+    background: black;
+    text-align: center;
+}
 
 .fecha{
-    width: 400px;
+    width: 98%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    background: #e8e8e8;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .versus{
-    width: 400px;
+    width: 90%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    background: #e8e8e8;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.versusSiguiente{
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fechaSiguiente{
+    width: 98%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-.grupo{
-    width: 500px;
-    color: #e8e8e8;
-    background: black;
-}
