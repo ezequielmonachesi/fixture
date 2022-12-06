@@ -10,7 +10,6 @@ body {
     rgba(29, 253, 175, 1) 0%,
     rgba(58, 173, 180, 1) 48%
   );
-  
 }
 
 nav {
@@ -60,8 +59,12 @@ nav a {
   justify-content: center;
   align-items: center;
 }
-.bold{
-  font-weight:bold;
+.title {
+  color: #990100;
+}
+
+.bold {
+  font-weight: bold;
 }
 .grupo {
   width: 100%;
@@ -117,11 +120,12 @@ nav a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 15px;
 }
 .faseFinal p {
   width: 100%;
   margin: 0 230px;
-  border: 1px solid red;
+  padding: 7px;
   display: flex;
   justify-content: flex-start;
   align-content: center;
@@ -184,21 +188,14 @@ footer p {
     align-items: center;
   }
   .card {
-    width: 70%;
+    width: 80%;
   }
 
-  .tituloFinal {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
   .faseFinal {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin: 0;
+    margin: 15px 0;
     padding: 0;
   }
   .faseFinal p {
@@ -219,5 +216,20 @@ footer p {
   }
   .card {
     width: 40%;
+  }
+  .faseFinal {
+    width: 100%;
+  }
+  .faseFinal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 0;
+  }
+  .faseFinal p {
+    width: 80%;
+    padding: 0;
+    margin: 0;
   }
 }
