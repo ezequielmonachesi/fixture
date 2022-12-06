@@ -46,10 +46,11 @@ nav a {
   width: 100%;
 }
 .title h3 {
-  padding: 0 10px;
+  padding: 10px 10px;
   color: white;
   font-weight: bolder;
   font-size: 25px;
+  margin-top: 10px;
 }
 
 .contenedor {
@@ -66,9 +67,6 @@ nav a {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-}
-.title {
-  color: #990100;
 }
 
 .bold {
@@ -129,6 +127,7 @@ nav a {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 15px;
+  margin-bottom: 40px;
 }
 .faseFinal p {
   width: 100%;
